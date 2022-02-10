@@ -37,7 +37,7 @@ class App extends Component {
         {/* --------------using function reference instead of a function call -------------- */}
         <button onClick={this.increaseCounter}>increment2</button>
 
-        {/* --------------DON'T do this, this is going to cause a loop!!!!!!!!!!!!!! -------------- */}
+        {/* --------------DON'T do this, this is going to cause an infinite loop!!!!!!!!!!!!!! -------------- */}
         <button onClick={this.increaseCounter()}>increment2</button>
         {/* --------------Passing down the STATE as a prop to a child component -------------- */}
         {/* --------------instance one of Comp1 -------------- */}
